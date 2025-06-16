@@ -1,0 +1,22 @@
+
+
+h1{text-align:center; font-size:70px;color:gray;}
+
+#main-wrapper #column1, #main-wrapper #column2{padding:40px; display:inline-block; vertical-align:top;}
+
+
+@media only screen and (max-width: 600px) {
+	#column1{background-color:#80808038; width:100% !important;}
+}
+
+
+#column1{background-color:#80808038; width:30%;}
+
+#section-skills{display:block; width:100%;}
+
+#section-skills p{display:block; padding:10px; width:100%;}
+
+
+#section-skills p:nth-child(even) {background-color: #f2f2f2;}
+
+hr{width:50%; margin-bottom:50px;}
